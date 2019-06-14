@@ -1,0 +1,33 @@
+{
+  "name": "vue-to-do-app",
+  "version": "1.0.0",
+  "description": "A Vue-To-Do-App by Using Vue+Vuex+Vue Router+SSR+Webpack, etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mike652638/Vue-To-Do-App.git"
+  },
+  "keywords": [
+    "Vue-To-Do-App",
+    "Vue",
+    "Vuex",
+    "Vue Router",
+    "SSR",
+    "Webpack"
+  ],
+  "author": "mike652638",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mike652638/Vue-To-Do-App/issues"
+  },
+  "homepage": "https://github.com/mike652638/Vue-To-Do-App#readme",
+  "devDependencies": {
+    "css-loader": "^3.0.0",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.34.0"
+  }
+}

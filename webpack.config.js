@@ -14,7 +14,21 @@ module.exports = {
       },
       {
         test: /\.css/,
-        loader: 'css-loader'
+        use: ['style-loader', 'css-loader']
+      },
+      {
+        test: /\.styl$/,
+        use: ['style-loader', 'css-loader', 'stylus-loader']
+      },
+      {
+        test: /\.(png|jpg|jpeg|gif|svg)$/,
+        use: [{
+          loader: 'url-loader',
+          options: {
+            limit: 1024,
+            name: 'img_[name].[ext]'
+          }
+        }]
       }
     ]
   },
